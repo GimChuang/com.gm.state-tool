@@ -52,6 +52,7 @@ namespace GM.StateTool
         }
 
         #region GAMESTATES
+        // TODO Add GoToState(string _stateName)
         public void GoToState(int _index)
         {
             crntIndex = _index;
