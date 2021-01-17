@@ -7,7 +7,6 @@ namespace GM.StateTool
 {
     public class GameState : MonoBehaviour
     {
-
         // durations
         public StateTransitionSetter stateTransitionSetter;
         float delayDuration;
