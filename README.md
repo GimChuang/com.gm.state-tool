@@ -22,20 +22,22 @@ How to Use
 
 4. **Add GameState Logic**
 
-   You'll find **StateLogicChecker**s in StateLogicChecker folder. They're going to help checking:  "if some situation is achieved, then we can go to the next GameState!".
+   You'll find **StateLogicChecker**s in *StateLogicChecker* folder. They're going to help checking:  "if some situation is achieved, then we can go to the next GameState!".
 Add one (or multiple, if you want) **StateLogicChecker** script to the GameState gameobjects you just created. 
-For example, attach a StateButtonChecker to my *StandBy* GameState gameobject so the game goes to *CountDown* GameState when a specified button is pressed.
-There are several types of  **StateLogicChecker**:
-        - **StateAnimChecker**: check if an animation is completed
-        - **StateButtonChecker**: check if a UI button is pressed
-        - **StateHoverChecker**: check if a gameobject has been hovered over some duration
-        - **StateKeyChecker**: check if a key is pressed
-        - **StateTimeChecker**: check if time has passed over some duration
+
+   For example, attach a StateButtonChecker to my *StandBy* GameState gameobject so the game goes to *CountDown* GameState when a specified button is pressed.
+
+   There are several types of  **StateLogicChecker**:
+   - **StateAnimChecker**: check if an animation is completed
+   - **StateButtonChecker**: check if a UI button is pressed
+   - **StateHoverChecker**: check if a gameobject has been hovered over some duration
+   - **StateKeyChecker**: check if a key is pressed
+   - **StateTimeChecker**: check if time has passed over some duration
         
 5. **Add GameState Transition (optional)**
 
    **StateTransitionSetter** is helpful if you want some transition between **GameStates**.
-Attach one to a GameState's gameobject, and assign it to `StateTransitionSetter` field in the inspector.
+   Attach one to a GameState's gameobject, and assign it to `StateTransitionSetter` field in the inspector.
 eg. Add a **CanvasGroupTransition** script to my *StandBy* GameState, assign my *StandBy* UI cancas group, and set the transition durations. The canvas group will fade in when *StandBy* GameState enters and fade out when it exits.
 
 6. **You're all set**
