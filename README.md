@@ -1,8 +1,8 @@
 # Unity State Tool 🎮
 
-![StateTool_Example](https://github.com/GimChuang/com.gm.state-tool/blob/master/readme_information/StateTool_Example.jpg)
+![StateTool_Example_Scene](https://github.com/GimChuang/com.gm.state-tool/blob/master/readme_information/StateTool_Example_Scene.gif)
 
-A component based tool to achieve State Pattern in Unity.
+A component based tool utilizing State Pattern in Unity.
 
 Please check out the sample scene called **Test_StateTool** in *Test* folder. If you cannot open the scene, copy it to your Assets folder.
 
