@@ -38,7 +38,8 @@ Add one (or multiple, if you want) **StateLogicChecker** script to the GameState
 
    **StateTransitionSetter** is helpful if you want some transition between **GameStates**.
    Attach one to a GameState's gameobject, and assign it to `StateTransitionSetter` field in the inspector.
-eg. Add a **CanvasGroupTransition** script to my *StandBy* GameState, assign my *StandBy* UI cancas group, and set the transition durations. The canvas group will fade in when *StandBy* GameState enters and fade out when it exits.
+
+   eg. Add a **CanvasGroupTransition** script to my *StandBy* GameState, assign my *StandBy* UI cancas group, and set the transition durations. The canvas group will fade in when *StandBy* GameState enters and fade out when it exits.
 
 6. **You're all set**
 
